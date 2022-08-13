@@ -1,0 +1,36 @@
+{
+  "name": "mini-coding-challenge",
+  "version": "1.0.0",
+  "description": "Solve the mini coding challenge by completing the utility functions",
+  "author": "David Hartsough <hartsoughdavid@gmail.com> (https://davidhartsough.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidhartsough/mini-coding-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidhartsough/mini-coding-challenge/issues"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest -o --watch"
+  },
+  "license": "ISC",
+  "keywords": [
+    "coding",
+    "challenge",
+    "javascript"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "prettier": "^2.7.1"
+  }
+}
